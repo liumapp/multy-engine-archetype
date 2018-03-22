@@ -2,6 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.6.RELEASE</version>
+	</parent>
+
 	<groupId>com.liumapp.archetype.engine</groupId>
 	<artifactId>engine-archetype</artifactId>
 	<version>v1.0.0</version>
@@ -16,10 +22,7 @@
 		</developer>
 	</developers>
 
-
   <modules>
-    <module>common</module>
-    <module>backend</module>
-    <module>frontend</module>
+    <module>tool-a</module>
   </modules>
 </project>
