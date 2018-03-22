@@ -13,6 +13,11 @@
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
 	<developers>
 		<developer>
 			<id>liumapp</id>
@@ -22,8 +27,9 @@
 		</developer>
 	</developers>
 
-  <modules>
-    <module>tool-a</module>
-    <module>model</module>
-  </modules>
+	<modules>
+		<module>tool-a</module>
+		<module>model</module>
+	</modules>
+
 </project>
